@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    background-color: #333;
+    height: 10vh;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
+
+.logo-image{
+    margin-top: 7px;
+}
+
+.menu-icon{
+    margin-right: 20px;
+    cursor: pointer;
+}
