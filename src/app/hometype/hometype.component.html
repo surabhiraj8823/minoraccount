@@ -1,0 +1,14 @@
+<div class="card">
+  <h2>Select Home Type</h2>
+  <form (ngSubmit)="onSubmit()">
+    <label for="homeType">Home Type</label>
+    <select id="homeType" [(ngModel)]="selectedType" name="homeType" required>
+      <option value="" disabled selected>Select a type</option>
+      <option *ngFor="let type of homeTypes" [value]="type">{{ type }}</option>
+    </select>
+    <button type="submit" [disabled]="!selectedType">Submit</button>
+  </form>
+  <div *ngIf="submitted && selectedType" class="result">
+    You selected: <strong>{{ selectedType }}</strong>
+  </div>
+</div>
