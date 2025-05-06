@@ -1,0 +1,7 @@
+<label for="documentType">Select Document Type:</label>
+<select id="documentType" [(ngModel)]="selectedDocument">
+  <option *ngFor="let document of documentTypes" [value]="document">
+    {{ document }}
+  </option>
+</select>
+<p>You selected: {{ selectedDocument }}</p>

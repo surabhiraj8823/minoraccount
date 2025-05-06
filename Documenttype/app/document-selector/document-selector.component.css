@@ -1,0 +1,42 @@
+/* Container styling */
+.document-selector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0; /* Slightly increased for a balanced layout */
+}
+
+/* Label styling */
+label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #2C3E50; /* A sophisticated dark blue-gray */
+}
+
+/* Dropdown styling */
+select {
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #95A5A6; /* Subtle grey tone for elegance */
+    border-radius: 6px;
+    background-color: #ECF0F1; /* Light, airy background */
+    color: #2C3E50;
+    outline: none;
+    cursor: pointer;
+    width: 220px; /* Slightly increased for better usability */
+    transition: all 0.3s ease-in-out; /* Smooth interaction */
+}
+
+select:focus {
+    border-color: #3498DB; /* Classy blue highlight */
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
+}
+
+/* Selected document display */
+p {
+    font-size: 1.1rem;
+    color: #34495E; /* Professional dark gray */
+    margin-top: 18px;
+    text-align: center;
+}
