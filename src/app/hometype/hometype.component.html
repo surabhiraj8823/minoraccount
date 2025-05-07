@@ -1,0 +1,9 @@
+<div class="form-container">
+  <h2>Property Details Form</h2>
+  <label for="homeType">Home Type:</label>
+  <select id="homeType" [(ngModel)]="selectedType">
+    <option *ngFor="let type of propertyTypes" [value]="type.name">{{ type.name }}</option>
+  </select>
+  <br />
+  <button (click)="submit()">Submit</button>
+</div>
