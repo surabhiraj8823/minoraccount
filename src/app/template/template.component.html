@@ -1,0 +1,31 @@
+<div>
+    <div class="card">
+      <h2>Select Country</h2>
+      <select [(ngModel)]="selectedCountry" (change)="onCountryChange()">
+        <option value="" disabled [selected]="!selectedCountry">Select a country</option>
+        <option *ngFor="let country of countries" [value]="country.name">
+          {{ country.name }}
+        </option>
+      </select>
+    </div>
+  
+    <div class="card" *ngIf="states.length > 0">
+      <h2>Select State</h2>
+      <select [(ngModel)]="selectedState" (change)="onStateChange()">
+        <option value="" disabled [selected]="!selectedState">Select a state</option>
+        <option *ngFor="let state of states" [value]="state.name">
+          {{ state.name }}
+        </option>
+      </select>
+    </div>
+  
+    <div class="card" *ngIf="cities.length > 0">
+      <h2>Select City</h2>
+      <select [(ngModel)]="selectedCity">
+        <option value="" disabled [selected]="!selectedCity">Select a city</option>
+        <option *ngFor="let city of cities" [value]="city">
+          {{ city }}
+        </option>
+      </select>
+    </div>
+  </div>
