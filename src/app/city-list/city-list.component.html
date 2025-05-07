@@ -1,0 +1,15 @@
+<div class="city-dropdown-container"> 
+
+    <label for="cities" class="city-label">Select a City:</label> 
+
+    <select id="cities" class="city-dropdown"> 
+
+      <option *ngFor="let city of cities" [value]="city.name"> 
+
+        {{ city.name }} 
+
+      </option> 
+
+    </select> 
+
+  </div> 

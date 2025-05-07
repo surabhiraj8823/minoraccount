@@ -1,0 +1,73 @@
+.city-dropdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.city-label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.city-dropdown {
+  width: 320px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.city-dropdown:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.submit-button {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.submit-button:active {
+  background-color: #1e7e34;
+  transform: scale(1);
+}
+
+.selected-city {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+  font-style: italic;
+}
+
+.selected-city p {
+  margin: 0;
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  display: inline-block;
+}

@@ -1,0 +1,24 @@
+{
+    "cities": [
+      { "id": 1, "name": "Bangalore" },
+      { "id": 2, "name": "Los Angeles" },
+      { "id": 3, "name": "London City" },
+      { "id": 4, "name": "Toronto" },
+      { "id": 5, "name": "Sydney" },
+      { "id": 6, "name": "Munich" },
+      { "id": 7, "name": "Paris" },
+      { "id": 8, "name": "Shinjuku" },
+      { "id": 9, "name": "Beijing City" },
+      { "id": 10, "name": "Rio de Janeiro" },
+      { "id": 11, "name": "Moscow City" },
+      { "id": 12, "name": "Johannesburg" },
+      { "id": 13, "name": "Milan" },
+      { "id": 14, "name": "Guadalajara" },
+      { "id": 15, "name": "Barcelona" },
+      { "id": 16, "name": "Amsterdam" },
+      { "id": 17, "name": "Auckland City" },
+      { "id": 18, "name": "Stockholm City" },
+      { "id": 19, "name": "Oslo City" },
+      { "id": 20, "name": "Singapore City" }
+    ]
+  }
